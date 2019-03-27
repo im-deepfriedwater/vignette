@@ -1,3 +1,3 @@
-- music playing after the first click
+- music and snow fall playing after the first click
 - snowball hit
 - footsteps in the snow
