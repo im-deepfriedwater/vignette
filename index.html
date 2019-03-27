@@ -29,7 +29,9 @@ audio {
 
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
 
 
 
@@ -40,16 +42,19 @@ audio {
 </script><tw-passagedata pid="1" name="Small things we write. " tags="" position="785,988" size="100,100">I don’t know if it ever stopped [[snowing-&gt;trekking]] in that corner of your mind.
 
 <audio id="trek" controls>
+  <source src="src/audio/trek.ogg" type="audio/ogg">
   <source src="src/audio/trek.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 <audio id="hit" controls>
+  <source src="src/audio/hit.ogg" type="audio/ogg">
   <source src="src/audio/hit.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 <audio id="snowfall" controls>
+  <source src="src/audio/snowfall.ogg" type="audio/ogg">
   <source src="src/audio/snowfall.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
@@ -120,15 +125,9 @@ Sounds from freesound.org:
  &quot;snow-on-umbrella-eq-130214-01.wav&quot; by klankbeeld
 
 Music:
+&lt;a href=&quot;https://notquitereal.bandcamp.com/album/something-nothing-friends-at-the-table-soundtrack-season-five&quot;&gt;&quot;Something&quot;&lt;/a&gt; by Jack de Quidt
 
-&lt;a href=&quot;https://notquitereal.bandcamp.com/album/something-nothing-friends-at-the-table-soundtrack-season-five&quot;&gt;&quot;Something&quot; by Jack de Quidt&lt;/a&gt;
---- 
-
-words by Sabrina de Silva
-
-other things by Justin Kyle Torres
-
-thank you.</tw-passagedata><tw-passagedata pid="11" name="fantasy" tags="" position="600,91" size="100,100">And it snowed because you were afraid to let go of a [[fantasy-&gt;fin]].
+[[give me more credits -&gt; fin2]]</tw-passagedata><tw-passagedata pid="11" name="fantasy" tags="" position="600,91" size="100,100">And it snowed because you were afraid to let go of a [[fantasy-&gt;fin]].
 
 </tw-passagedata><tw-passagedata pid="12" name=" fakeSomewhere" tags="" position="2172,468" size="100,100">When we concluded our flurry of snowballs—as close to war as it came between us—we would walk through the village, still giggle.
  
@@ -144,7 +143,13 @@ document.getElementById(&quot;hit&quot;).play();
  
 I’d nestle into your [[arms-&gt;arms]] and ask you to tell me [[stories-&gt;stories]].
 
-(if: $seenGiggle and $seenArms)[You never liked [[Christmas-&gt;christmas]].]</tw-passagedata></tw-storydata>
+(if: $seenGiggle and $seenArms)[You never liked [[Christmas-&gt;christmas]].]</tw-passagedata><tw-passagedata pid="15" name=" fin2" tags="" position="361.3333333333333,574.6666666666666" size="100,100">
+
+words by Sabrina de Silva
+
+other things by Justin Kyle Torres
+
+thank you.</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
