@@ -27,35 +27,15 @@ audio {
 
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
 
 
 
+
 </script><tw-passagedata pid="1" name="Small things we write. " tags="" position="785,988" size="100,100">I don’t know if it ever stopped [[snowing-&gt;trekking]] in that corner of your mind.
-
-
-<audio id="trek" controls>
-  <source src="src/audio/trek.wav" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-<audio id="hit" controls>
-  <source src="src/audio/hit.wav" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-<audio id="snowfall" controls>
-  <source src="src/audio/snowfall.wav" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-<audio id="bg" controls>
-  <source
-    src="https://t4.bcbits.com/stream/364e3825f2d3ac4b90b88f19564c7a08/mp3-128/2387097108?p=0&ts=1553811692&t=b4f3d2bc82c38831001d38f38c0d5bb47056b580&token=1553811692_714028534e15ce1e7934c6d598fb13c0eac3ea2e">
-</audio>
-
 
 &lt;script&gt;
 document.getElementById(&quot;snowfall&quot;).play();
@@ -83,7 +63,7 @@ you were invisible, having had the element of [[surprise-&gt;scramble]]]</tw-pas
 (click: ?shot)[and shot [[you-&gt;somewhere]]]
 
 
-</tw-passagedata><tw-passagedata pid="5" name="somewhere" tags="" position="1904,924" size="100,100">When we concluded our flurry of snowballs—as close to war as it came between us—we would walk through the village, still [giggly]&lt;giggle|.
+</tw-passagedata><tw-passagedata pid="5" name="somewhere" tags="" position="1927.3333333333333,929" size="100,100">When we concluded our flurry of snowballs—as close to war as it came between us—we would walk through the village, still [giggly]&lt;giggle|.
  
 (click: ?giggle)[I’d nestle into your [[arms-&gt;arms]] and ask you to tell me [[stories-&gt;stories]].]
 
@@ -96,9 +76,9 @@ document.getElementById(&quot;trek&quot;).play();
 
 </tw-passagedata><tw-passagedata pid="6" name="arms" tags="" position="1637,1223" size="100,100">It felt like Christmas seeing the candles glow in [[frosty-&gt; fakeSomewhere]] windows, and seeing old fleece blankets mussed up in the sitting room.
 
-(set: $seenGiggle to true)</tw-passagedata><tw-passagedata pid="7" name="stories" tags="" position="1941,648" size="100,100">Like [[magic-&gt; fakeSomewhere]].
+(set: $seenGiggle to true)</tw-passagedata><tw-passagedata pid="7" name="stories" tags="" position="1941,648" size="100,100">Like [[magic-&gt; fakeSomewhere2]].
 
-(set: $seenArms to true)</tw-passagedata><tw-passagedata pid="8" name="christmas" tags="" position="1912.3333333333333,143.33333333333331" size="100,100">It reminded you of your [family]&lt;family2|.
+(set: $seenArms to true)</tw-passagedata><tw-passagedata pid="8" name="christmas" tags="" position="1912,143" size="100,100">It reminded you of your [family]&lt;family2|.
 
 
 (click:?family2)[It reminded you of how coarsely your [family]&lt;stone| conflicted with your idea of [family]&lt;stone|.]
@@ -112,6 +92,15 @@ And yet, this was the environment you craved, because of the possibility you’d
 And so it snowed in your mind because of [[hope-&gt;fantasy]]. 
 
 </tw-passagedata><tw-passagedata pid="10" name="fin" tags="" position="358,428" size="100,100">
+Sounds from freesound.org:
+&quot;Running, Snow, A.wav&quot; by InspectorJ
+&quot;jm-impact-01c-snow-on-cement.wav&quot; by julien-matthey
+ &quot;snow-on-umbrella-eq-130214-01.wav&quot; by klankbeeld
+
+Music:
+
+&lt;a href=&quot;https://notquitereal.bandcamp.com/album/something-nothing-friends-at-the-table-soundtrack-season-five&quot;&gt;&quot;Something&quot; by Jack de Quidt&lt;/a&gt;
+--- 
 
 words by Sabrina de Silva
 
@@ -119,7 +108,7 @@ other things by Justin Kyle Torres
 
 thank you.</tw-passagedata><tw-passagedata pid="11" name="fantasy" tags="" position="600,91" size="100,100">And it snowed because you were afraid to let go of a [[fantasy-&gt;fin]].
 
-</tw-passagedata><tw-passagedata pid="12" name=" fakeSomewhere" tags="" position="2209.6666666666665,423.3333333333333" size="100,100">When we concluded our flurry of snowballs—as close to war as it came between us—we would walk through the village, still giggle.
+</tw-passagedata><tw-passagedata pid="12" name=" fakeSomewhere" tags="" position="2172.3333333333335,468" size="100,100">When we concluded our flurry of snowballs—as close to war as it came between us—we would walk through the village, still giggle.
  
 I’d nestle into your [[arms-&gt;arms]] and ask you to tell me [[stories-&gt;stories]].
 
@@ -129,7 +118,11 @@ I’d nestle into your [[arms-&gt;arms]] and ask you to tell me [[stories-&gt;st
 &lt;script&gt;
 document.getElementById(&quot;hit&quot;).play();
 &lt;/script&gt;
-</tw-passagedata></tw-storydata>
+</tw-passagedata><tw-passagedata pid="14" name=" fakeSomewhere2" tags="" position="2057.6666666666665,303" size="100,100">When we concluded our flurry of snowballs—as close to war as it came between us—we would walk through the village, still giggle.
+ 
+I’d nestle into your [[arms-&gt;arms]] and ask you to tell me [[stories-&gt;stories]].
+
+(if: $seenGiggle and $seenArms)[You never liked [[Christmas-&gt;christmas]].]</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
