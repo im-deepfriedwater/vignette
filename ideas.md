@@ -1,0 +1,3 @@
+- music playing after the first click
+- snowball hit
+- footsteps in the snow
